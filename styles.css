@@ -1,0 +1,9 @@
+.page-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.background-image {
+    background-image: url('calanques.jpg');
+    width: 30%;
+}
