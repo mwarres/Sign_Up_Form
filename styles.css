@@ -7,3 +7,8 @@
     background-image: url('calanques.jpg');
     width: 30%;
 }
+
+.form-container {
+    background-color: #00001a;
+    color:beige;
+}
