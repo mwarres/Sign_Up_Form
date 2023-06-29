@@ -43,6 +43,20 @@ input {
     margin-bottom: 0.5rem;
 }
 
+input:focus {
+    border-width: 1rem;
+    border: solid;
+    border-color: black;
+}
+
+input:focus.mismatch {
+    border-color: red;
+}
+
+input:focus.match {
+    border-color: green;
+}
+
 .page-container {
     display: flex;
 }
@@ -78,4 +92,14 @@ input {
 
 .opacity {
     opacity: 0.8;
+}
+
+.mismatch {
+    border-width: 0.1rem;
+    border-color: red;
+}
+
+.match {
+    border-width: 0.1rem;
+    border-color: green;
 }
